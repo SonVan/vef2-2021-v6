@@ -25,9 +25,7 @@ export function Film({ title, openingCrawl, episodeID, characters }: Props): JSX
           <h3>
             Characters
          </h3>
-          {characters.map(character => (
-            <a href={"/characters/" + character.id}>{character.name}</a>
-          ))}
+
         </div>
       </div>
     </section>
